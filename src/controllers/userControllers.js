@@ -53,7 +53,7 @@ const controllers = {
 
     actualUser = user.dataValues;
 
-    res.status(200).json({ message: "Succesfully Login" });
+    res.status(200).json({ message: "Succesfully Login", actualUser });
   },
 
   actualUser: (req, res) => {
