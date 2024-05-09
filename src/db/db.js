@@ -1,10 +1,15 @@
 const { Sequelize } = require("sequelize");
 
 // Configura la conexión a la base de datos
-const sequelize = new Sequelize("log_reg_app", "root", "", {
-  host: "localhost", // Cambia esto si tu base de datos está en un host diferente
-  dialect: "mysql",
-});
+const sequelize = new Sequelize(
+  "bjz7xxm6nwxcpbtnspmp",
+  "uqdmjnx4zjhhlcg5",
+  "idynXaooCeRYWBqfDPov",
+  {
+    host: "bjz7xxm6nwxcpbtnspmp-mysql.services.clever-cloud.com",
+    dialect: "mysql",
+  }
+);
 
 // Verifica la conexión a la base de datos
 async function conectarBaseDeDatos() {
